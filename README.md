@@ -12,3 +12,6 @@ pip install tk
 ```zsh
 pip3 install tk
 ```
+### Usage
+First you need to run server (server.py) and you can connect with client (client.py)
+Make sure you set host and port in the python files
