@@ -24,7 +24,7 @@ def handle(client):
         try:
             message = client.recv(1024)
             broadcast(message)
-            #print(message)#debug line
+           # print(message)#debug line
             
         except:
             index = clients.index(client)
